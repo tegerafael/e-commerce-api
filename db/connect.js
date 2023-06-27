@@ -1,5 +1,4 @@
-const mongoose = require("mongoose");
-mongoose.set("strictQuery", false);
+const mongoose = require('mongoose');
 
 const connectDB = (url) => {
   return mongoose.connect(url);
